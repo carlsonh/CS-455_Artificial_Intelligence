@@ -26,7 +26,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://carlsonh.github.io/CS-455_Artificial_Intelligence/post/behaviour_trees/</guid>
-      <description>Implemented from Ian Millington&amp;rsquo;s AI for Games with (a lot of) interpreted code by the professor Bill Slease. Extensible with the addition of more sequences to the tree.</description>
+      <description>Implemented from Ian Millington&amp;rsquo;s AI for Games with (a lot of) interpreted code by the professor Bill Slease. This simple behaviour tree gets to the target object whether the door is open, closed, or locked. Extensible with the addition of more sequences to the tree.</description>
     </item>
     
     <item>
