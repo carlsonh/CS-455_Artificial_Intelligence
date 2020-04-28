@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+
+<html lang='en'>
+	<head>
+		<title>PCG - Maze &middot; CS 455</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		
+		
+		
+		<link rel="stylesheet" href="/assets/css/main.min.css">
+		
+		
+		
+		<noscript><link rel="stylesheet" href='/assets/css/noscript.css' /></noscript>
+	</head>
+
+	<body lang='en' class="is-preload">
+
+		
+			<div id="wrapper">
+
+                
+<header id="header">
+    <a href='/' class="logo">CS 455</a>
+</header>
+
+                
+
+<nav id="nav">
+    <ul class="links">
+        <li class="active"><a href='/'>CS 455</a></li>
+        
+        <li><a href='/#footer'>Contact</a></li>
+        
+        
+    </ul>
+    
+    <ul class="icons">
+        
+        
+        
+        
+        <li><a href="https://www.linkedin.com" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+        
+        
+        
+        
+        
+        
+    </ul>
+    
+</nav>
+
+
+				
+					<div id="main">
+
+						
+                        <section class="post">
+                            <header class="major">
+                                
+                                <span class="date">March 1, 2020</span>
+                                
+                                <h1>PCG - Maze</h1>
+                                <p>At dev time, generate a maze using depth first backtracking and have Houdini Engine generate corresponding geometry.</p>
+                            </header>
+                            
+                            <div class="image main"><img src="/https:/raw.githubusercontent.com/carlsonh/CS455_Maze_PROD/master/PROD_01.png" alt="" /></div>
+                            
+                            <p>Using a depth first backtracking algorithm implemented from Ian Millington&rsquo;s AI for Games, this generates a maze of arbitrary size set by the developer. This is generated as a 2-D array of vector4&rsquo;s representing whether a given direction is open or if there&rsquo;s a wall there. This is converted to an array of points with the paths stored in the uv&rsquo;s to be sent to Houdini Engine.</p>
+<figure>
+    <img src="https://raw.githubusercontent.com/carlsonh/CS455_Maze_DEV/master/sc1.png"
+         alt="Image of maze template in Unity" width="100%"/> 
+</figure>
+
+<p>In Houdini Engine, a wall asset is then copied onto each of the directions that should be blocked, the maze model polyreduced a bit, and returned to Unity.</p>
+
+
+                            
+
+                            
+                            
+
+                            
+                            <ul class="actions">
+                            <li><a href="https://github.com/carlsonh/CS455_Maze_PROD" class="button">Repo</a></li>
+                            
+
+
+                            
+                            <ul class="actions">
+                            <li><a href="https://carlsonh.github.io/CS455_Maze_PROD/Maze_PROD/" class="button">Live Game</a></li>
+                            
+
+
+                        </section>
+
+					</div>
+
+                    
+
+<footer id="footer">
+    
+    <section>
+      <form method="post" action="post-action">
+        <div class="fields">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" />
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="3"></textarea>
+          </div>
+        </div>
+        <ul class="actions">
+          <li><input type="submit" value='Send A Message' /></li>
+        </ul>
+      </form>
+    </section>
+    
+    <section class="split contact">
+        
+        
+        <section>
+            <h3>Phone</h3>
+            <p><a href="tel:%28800%29%20000-0000">(800) 000-0000</a></p>
+        </section>
+        
+        
+        <section>
+            <h3>Email</h3>
+            <p><a href="mailto:someone@untitled.tld">someone@untitled.tld</a></p>
+        </section>
+        
+        
+        <section>
+            <h3>Social</h3>
+            <ul class="icons alt">
+                
+                
+                
+                
+                <li><a href="https://www.linkedin.com" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                
+                
+                
+                
+                
+                
+            </ul>
+        </section>
+        
+    </section>
+</footer>
+
+                    
+<div id="copyright">
+    <ul><li>&copy; CS 455</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li><li>Hugo Port: <a href="https://curtistimson.co.uk">curttimson</a></li></ul>
+</div>
+
+
+            </div>
+            
+            
+
+
+
+
+
+
+
+
+
+
+<script src='/assets/js/bundle.js'></script>
+
+
+	</body>
+</html>

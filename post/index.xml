@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on CS 455</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on CS 455</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 01 Mar 2020 00:06:21 +0000</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PCG - Maze</title>
+      <link>/post/pcg_maze/</link>
+      <pubDate>Sun, 01 Mar 2020 00:06:21 +0000</pubDate>
+      
+      <guid>/post/pcg_maze/</guid>
+      <description>Using a depth first backtracking algorithm implemented from Ian Millington&amp;rsquo;s AI for Games, this generates a maze of arbitrary size set by the developer. This is generated as a 2-D array of vector4&amp;rsquo;s representing whether a given direction is open or if there&amp;rsquo;s a wall there. This is converted to an array of points with the paths stored in the uv&amp;rsquo;s to be sent to Houdini Engine.
+  In Houdini Engine, a wall asset is then copied onto each of the directions that should be blocked, the maze model polyreduced a bit, and returned to Unity.</description>
+    </item>
+    
+    <item>
+      <title>Behaviour Trees</title>
+      <link>/post/behaviour_trees/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/behaviour_trees/</guid>
+      <description>Implemented from Ian Millington&amp;rsquo;s AI for Games with (a lot of) interpreted code by the professor Bill Slease. Extensible with the addition of more sequences to the tree.</description>
+    </item>
+    
+    <item>
+      <title>Firing Solution</title>
+      <link>/post/firing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/firing/</guid>
+      <description>Implements firing solution code from Ian Millington&amp;rsquo;s AI for Games. Boxes randomly throw themselves at the center disk with a sphere collider on it. This causes them to fly off after hitting. Every 5s, the box checkes if it has a solution with its current power. If not, it increases its power every check until it has one.</description>
+    </item>
+    
+    <item>
+      <title>Flocking</title>
+      <link>/post/flocking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/flocking/</guid>
+      <description>An early project in the class, implementing a flocking algorithm from Ian Millington&amp;rsquo;s AI for Games. This implemented both priority steering for obstacle avoidance priority, and blended steering for separation, coherence, and look-where-going movement algorithms. The boids in this project were also a test of vertex animated textures.</description>
+    </item>
+    
+    <item>
+      <title>Pursue Path &amp; Separate</title>
+      <link>/post/pps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/pps/</guid>
+      <description>This project implements pursue, path-following, and separation algorithms from Ian Millington&amp;rsquo;s. The rings of bots have a leader using waypoint-based path following with the bots behind them running pursue code. The outer ring has two leaders with one for the inner. The bots inside these rings run only separation logic. Sheep-bots are avoiding all units such that if they approach the ring while a patrol is there, they should bounce back into the field.</description>
+    </item>
+    
+    <item>
+      <title>Tactical Pathfinding</title>
+      <link>/post/tac_path/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/tac_path/</guid>
+      <description>From a Houdini heightfield, generate a grid of points for a Djikstra pathfinding node to be instanced onto in Unity. Heightfield data is then made accessible to each node which the developer can then choose how pathfinding nodes should be weighted (e.g. Water, Height, Sediment, Noise). Pathfinding algorithm implemented from Ian Millington&amp;rsquo;s AI for Games.
+  </description>
+    </item>
+    
+  </channel>
+</rss>
